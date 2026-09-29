@@ -1,0 +1,21 @@
+# Dependencias y Entornos Virtuales
+node_modules/
+env/
+venv/
+.venv/
+
+# Archivos de Configuración y Secretos (Seguridad)
+.env*
+*.pem
+*.key
+datos-prueba.json
+
+# Archivos Generados e Historiales (Producción/Build)
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Configuraciones propias del editor de código
+.vscode/
+.idea/
